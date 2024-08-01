@@ -1,18 +1,24 @@
 body{
     background-color: rgb(246, 246, 246);
     font-family: "Inter", sans-serif;
+
+}
+
+.container{
+    background-image: linear-gradient(150.24deg, rgba(124, 124, 124, 0.558) 10%, rgba(37, 37, 37, 0.541) 95%), url('imagens/banner-image.jpg');
+    max-width: 100%;
+    background-size: cover;
+    height: 800px;
+
 }
 
 .nav-container{
     background-color: rgb(165, 0, 0);
+    height: 75px;
     display: flex;
-    align-items: end;
     justify-content: space-between;
-}
-
-nav ul {
-    display: flex;
-    padding-left: 1200px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 nav ul a{
@@ -20,22 +26,92 @@ nav ul a{
     margin: 0 16px;
     text-transform: uppercase;
     font-size: 15px;
-    display: block;
 }
 
 .banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text{
+    margin-top: 100px;
+    text-align:center;
     color: white;
-    display:flex;
+    line-height: 5px;
+
+}
+
+.banner-text h1{
+    font-size: 110px;
+}
+.banner-text h2{
+    font-size: 110px;
+}
+.banner-text h3{
+    font-size: 30px;
+}
+
+#corpo-do-site{
+    background-color:antiquewhite;
+    border-radius: 15px;
+    margin-top: 270px;
+    margin-left: 25px;
+    margin-right: 35px;
+    height: 1750px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: black;
+}
+
+#titulo{
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-image: linear-gradient(150.24deg, rgba(124, 124, 124, 0.558) 10%, rgba(37, 37, 37, 0.541) 95%), url('imagens/banner-image.jpg');
-    max-width: 100%;
-    background-size: cover;
-    height: 650px;
+    margin-top: 100px;
+    color: black;
+
+
 }
 
-.banner h1{
-    font-size: 120px;
+#bem-vindo{
+    font-size: 70px;
+    margin-top: 100px;
 }
 
+.description{
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 120px;
+    text-align:justify;
+
+}
+
+.food-images{
+    border-radius: 15px;
+    width: 700px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#footer{
+    background-color: rgb(165, 0, 0);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
