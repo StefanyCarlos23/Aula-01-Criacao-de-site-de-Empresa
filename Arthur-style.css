@@ -24,7 +24,7 @@ nav{
     padding-top: 25px;
     padding-right: 40px;
     padding-bottom: 25px;
-    border-bottom: 3px solid red;
+    border-bottom: 4px solid red;
 }
 
 nav ul{
@@ -47,7 +47,7 @@ nav ul a:not(.btn)::after{
     width: 0;
     display: block;
     margin: 0 auto;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 nav ul a:hover::after{
@@ -56,7 +56,7 @@ nav ul a:hover::after{
 
 section,
 footer{
-    padding: 60px 0;
+    padding: 90px 0;
 }
 
 header .container p{
@@ -105,7 +105,7 @@ header{
 .introducao .container{
     display: flex;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .introducao .introducao-text{
@@ -123,7 +123,7 @@ header{
 .introducao .introducao-text p{
     font-family: "Play-fair Display", serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 23px;
     line-height: 1.5em;;
     color: red;
     text-align: justify;
