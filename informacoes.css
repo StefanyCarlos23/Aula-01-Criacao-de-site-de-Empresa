@@ -59,8 +59,52 @@ section{
     padding: 70px 0;
 }
 
+.container .titulo{
+    font-size: 50px;
+    color: rgb(77, 55, 1);
+    padding-left: 75px;
+}
 
+.container .subtitulo{
+    font-size: 40px;
+    color: rgb(77, 55, 1);
+    padding-left: 75px;
+    padding-bottom: 55px;
+}
 
+.container .informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.container .nome-joao{
+    padding-top: 70px;
+}
+.container .nome-stefany{
+    padding-top: 35px;
+}
+
+.container .socios p{
+    font-family: "Play-fair Display", serif;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.5em;;
+    color: rgb(81, 45, 31);
+    text-align: justify;
+    width: 726px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.container .socios h1{
+    font-size: 30px;
+    color: rgb(98, 71, 1);
+    padding-bottom: 20px;
+    padding-left: 75px;
+
+}
 
 footer{
 
