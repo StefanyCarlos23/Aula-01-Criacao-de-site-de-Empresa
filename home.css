@@ -54,11 +54,9 @@ nav ul a:hover::after{
     width: 100%;
 }
 
-
 section{
     padding: 55px 0;
 }
-
 
 header .container p{
     color: white;
@@ -225,7 +223,6 @@ header{
 .pratos .container-horario .horarios{
     text-align:end;
 }
-
 
 .line{
     border: 0;
