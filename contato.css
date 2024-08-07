@@ -57,3 +57,17 @@ nav ul a:hover::after{
 section{
     padding: 70px 0;
 }
+
+
+footer{
+
+    text-align: center;
+    background-color: green;
+    border-top: 4px solid red;
+    padding: 30px 0px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
