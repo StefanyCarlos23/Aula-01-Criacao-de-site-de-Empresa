@@ -58,35 +58,35 @@ section{
     padding: 70px 0;
 }
 
-.container .titulo{
+.container .title{
     font-size: 50px;
     color: rgb(77, 55, 1);
     padding-left: 75px;
 }
 
-.container .subtitulo{
+.container .subtitle{
     font-size: 40px;
     color: rgb(77, 55, 1);
     padding-left: 75px;
     padding-bottom: 55px;
 }
 
-.container .informacoes{
+.container .informations{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     justify-content: space-between;
 }
 
-.container .nome-joao{
+.container .name-joao{
     padding-top: 70px;
 }
 
-.container .nome-stefany{
+.container .name-stefany{
     padding-top: 35px;
 }
 
-.container .socios p{
+.container .members p{
     font-family: "Play-fair Display", serif;
     font-weight: 500;
     font-size: 23px;
@@ -98,7 +98,7 @@ section{
     padding-left: 75px;
 }
 
-.container .socios h1{
+.container .members h1{
     font-size: 30px;
     color: rgb(98, 71, 1);
     padding-bottom: 20px;

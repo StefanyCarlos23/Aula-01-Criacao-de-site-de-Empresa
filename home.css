@@ -77,12 +77,14 @@ header{
 .banner{
     display: flex;
     justify-content: center;
+    height: 620px;
 }
 
 .banner .banner-text{
     margin: 100px;
     text-align: center;
     padding: 0 90px;
+    padding-top: 50px;
 }
 
 .banner .banner-text h1{
@@ -101,25 +103,25 @@ header{
     margin: 14px 0;
 }
 
-.introducao .container{
+.introduction .container{
     display: flex;
     align-items: center;
     padding-top: 40px;
 }
 
-.introducao .introducao-text{
+.introduction .introduction-text{
     width: 50%;
     margin: 30px;
     padding: 0 70px;
 }
 
-.introducao .introducao-text h3{
+.introduction .introduction-text h3{
     font-size: 40px;
     color: rgb(98, 71, 1);
     padding-bottom: 20px;
 }
 
-.introducao .introducao-text p{
+.introduction .introduction-text p{
     font-family: "Play-fair Display", serif;
     font-weight: 500;
     font-size: 23px;
@@ -128,12 +130,12 @@ header{
     text-align: justify;
 }
 
-.introducao .introducao-img img{
+.introduction .introduction-img img{
     width: 626px;
-    padding-right: 75px;;
+    padding-right: 75px;
 }
 
-.pratos .pratos-imagens{
+.plates .plates-images{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -141,33 +143,33 @@ header{
     justify-content: space-around;
 }
 
-.pratos .img-prato-2 h3{
+.plates .img-plate-2 h3{
     font-size: 30px;
     color: rgb(98, 71, 1);
     padding-bottom: 20px;
     padding-left: 75px;
 }
 
-.pratos .img-prato-1 h3{
+.plates .img-plate-1 h3{
     font-size: 30px;
     color: rgb(98, 71, 1);
     padding-bottom: 20px;
     padding-left: 75px;
 }
 
-.pratos .img-prato-1 img{
+.plates .img-plate-1 img{
     width: 726px;
     padding-right: 75px;
     padding-left: 75px;
 }
 
-.pratos .img-prato-2 img{
+.plates .img-plate-2 img{
     width: 726px;
     padding-right: 75px;
     padding-left: 75px;
 }
 
-.pratos .descricao{
+.plates .descption{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -176,10 +178,10 @@ header{
     padding-top: 60px;
 }
 
-.pratos .descricao-prato-1{
+.plates .descption-plates-1{
     font-family: "Play-fair Display", serif;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 1.5em;;
     color: rgb(81, 45, 31);
     text-align: justify;
@@ -188,10 +190,10 @@ header{
     padding-left: 75px;
 }
 
-.pratos .descricao-prato-2{
+.plates .descption-plates-2{
     font-family: "Play-fair Display", serif;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 1.5em;;
     color: rgb(81, 45, 31);
     text-align: justify;
@@ -200,7 +202,7 @@ header{
     padding-left: 75px;
 }
 
-.pratos .container-horario{
+.plates .container-horario{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -212,15 +214,15 @@ header{
     color: rgb(81, 45, 31);
 }
 
-.pratos .container-horario p h3{
+.plates .container-horario p h3{
     font-weight: bold;
 }
 
-.pratos .container-horario .reserva{
+.plates .container-horario .reserva{
     text-align: center;
 }
 
-.pratos .container-horario .horarios{
+.plates .container-horario .horarios{
     text-align:end;
 }
 
