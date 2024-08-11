@@ -64,8 +64,20 @@ section{
     padding-left: 75px;
 }
 
-footer{
+.container .form{
+    padding-top: 40px;
+    padding-left: 75px;
+    font-family: "Play-fair Display", serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(81, 45, 31);
+}
 
+.container .form .question{
+    padding-top: 5px;
+}
+
+footer{
     text-align: center;
     background-color: green;
     border-top: 4px solid red;
