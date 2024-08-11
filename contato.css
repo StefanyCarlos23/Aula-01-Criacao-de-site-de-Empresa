@@ -58,6 +58,12 @@ section{
     padding: 70px 0;
 }
 
+.container .title{
+    font-size: 35px;
+    color: rgb(77, 55, 1);
+    padding-left: 75px;
+}
+
 footer{
 
     text-align: center;
